@@ -1,0 +1,6 @@
+{
+  "name": "Live TV Channel",
+  "description": "Premium Live Streaming Platform featuring dynamic M3U parsing, dual 2D/3D visual modes, HLS playback controls, bookmarks, and real-time synchronized stats.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

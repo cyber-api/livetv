@@ -1,0 +1,148 @@
+import { Channel } from "./types";
+
+export const FALLBACK_CHANNELS: Channel[] = [
+  {
+    name: "Channel I HD",
+    url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8",
+    logo: "https://s3.aynaott.com/storage/8e998f20a9cc52cb8eb1f52a5bf38204",
+    categories: ["Entertainment", "Bangla"],
+  },
+  {
+    name: "Jamuna TV",
+    url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
+    logo: "https://s3.aynaott.com/storage/aac6488b68844e5756ab46eb79659de8",
+    categories: ["News", "Bangla"],
+  },
+  {
+    name: "Ekattor HD",
+    url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8",
+    logo: "https://s3.aynaott.com/storage/d91767995b2f2a54852c92bbbc20daa7",
+    categories: ["News", "Bangla"],
+  },
+  {
+    name: "NTV",
+    url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8",
+    logo: "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png",
+    categories: ["Entertainment", "Bangla"],
+  },
+  {
+    name: "ETV",
+    url: "https://tvsen6.aynaott.com/etv/index.m3u8?e=1779283752&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=2c4b5c7a7044076e38b667d37971baec",
+    logo: "https://s3.aynaott.com/storage/8a1af81802b0728c064c2adabcdc72c8",
+    categories: ["Bangla"],
+  },
+  {
+    name: "RTV",
+    url: "https://tvsen5.aynaott.com/RtvHD/index.m3u8?e=1779283751&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=678f1f8ec03b1af7b76d013d33f45198",
+    logo: "https://s3.aynaott.com/storage/094587a26f2c5e4f2962104728ec8c5d",
+    categories: ["Bangla"],
+  },
+  {
+    name: "Somoy TV",
+    url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
+    logo: "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560559088.png",
+    categories: ["News", "Bangla"],
+  },
+  {
+    name: "Bangla Vision",
+    url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8",
+    logo: "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735561344354.png",
+    categories: ["Entertainment", "Bangla"],
+  },
+  {
+    name: "Maasranga TV",
+    url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
+    logo: "https://s3.aynaott.com/storage/1b5cb8c7901739cd7d201a38d2ab4737",
+    categories: ["Entertainment", "Bangla"],
+  },
+  {
+    name: "Independent TV",
+    url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8",
+    logo: "https://s3.aynaott.com/storage/6653326503fcade746d87881d5c99697",
+    categories: ["News", "Bangla"],
+  },
+  {
+    name: "Deepto TV HD",
+    url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8",
+    logo: "https://s3.aynaott.com/storage/76717b7a598a30815a1bdb16ecd3af6c",
+    categories: ["Entertainment", "Bangla"],
+  },
+  {
+    name: "Channel 24 HD",
+    url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
+    logo: "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png",
+    categories: ["News", "Bangla"],
+  },
+  {
+    name: "Duronto TV",
+    url: "https://tvsen6.aynaott.com/durontotv-live/index.m3u8?e=1779283757&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3da514e08a15c80daed60a18b3f423fa",
+    logo: "https://s3.aynaott.com/storage/51f1530c076c027e431bf18a49613f0b",
+    categories: ["Bangla"],
+  },
+  {
+    name: "T Sports HD",
+    url: "https://tvsen7.aynaott.com/tsports-hd/index.m3u8?e=1779283784&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3b4c5a2cfa872fa7f91ffbfb4aa0f658",
+    logo: "https://s3.aynaott.com/storage/dbc585f70a60b9855b6e13a8ce4cb6f4",
+    categories: ["Sports"],
+  },
+  {
+    name: "Star Jalsha",
+    url: "https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8",
+    logo: "https://raw.githubusercontent.com/Rakib49/Rakibiptv/main/images%20(9).jpeg",
+    categories: ["Entertainment", "Bangla"],
+  },
+  {
+    name: "Zee Bangla Cinema",
+    url: "https://edge2.roarzone.net:8447/roarzone/edge3/zee_bangla_cinema/index.m3u8?token=33eb90cb5993505e7adebcdc9fe5a680f5ff40b4-89433e784e249e183a59446474d0fff1-1780020920-1780010120",
+    logo: "https://tvassets.roarzone.net/images/29.png",
+    categories: ["Indian Bangla", "Bangla"],
+  },
+  {
+    name: "Gopal Bhar",
+    url: "https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8",
+    logo: "https://i.postimg.cc/Twh9bqH3/download.jpg",
+    categories: ["Indian Bangla", "Bangla", "Kids"],
+  },
+  {
+    name: "Zee Bangla",
+    url: "https://tvsen6.aynaott.com/ZeeBangla/index.m3u8",
+    logo: "https://tvassets.roarzone.net/images/34.png",
+    categories: ["Indian Bangla", "Bangla"],
+  },
+  {
+    name: "AlJazeera",
+    url: "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8",
+    logo: "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+    categories: ["News"],
+  },
+  {
+    name: "Tom & Jerry TV",
+    url: "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8",
+    logo: "https://i.postimg.cc/fWfLXnmV/download.jpg",
+    categories: ["Kids"],
+  },
+  {
+    name: "Doraemon TV",
+    url: "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
+    logo: "https://i.postimg.cc/VvkcnTPs/download.jpg",
+    categories: ["Kids"],
+  },
+  {
+    name: "Mr Bean Animated",
+    url: "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8",
+    logo: "https://i.postimg.cc/PxL7HjH2/download.jpg",
+    categories: ["Kids"],
+  },
+  {
+    name: "Discovery HD",
+    url: "http://198.195.239.50:8095/Discovery/index.m3u8",
+    logo: "https://i.postimg.cc/sDbcf38y/images.png",
+    categories: ["Entertainment", "English"],
+  },
+  {
+    name: "Sonic Bangla",
+    url: "http://103.204.43.87:8080/live/1/1/274.m3u8",
+    logo: "https://jiotvimages.cdn.jio.com/dare_images/images/Sonic_Bangla.png",
+    categories: ["Kids", "Bangla"],
+  },
+];
